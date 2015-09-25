@@ -1,0 +1,122 @@
+/* Global */
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {
+    color: #2BA6CB;
+}
+
+small {
+    font-size: 70%;
+}
+
+/* Header */
+header nav ul a:hover {
+   text-decoration: none;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding-top: 16px;
+    }
+
+    header h1, header nav ul {
+        margin: 0;
+        line-height: 24px;
+    }
+
+    header h1 {
+        float: left;
+    }
+
+    header nav {
+        float: right;
+    }
+}
+
+/* Labels */
+.label {
+    font-size: 0.9em;
+    padding: 0.2em 0.625em 0.2em;
+}
+
+.label.tag:hover, .label.category:hover {
+    text-decoration: underline;
+}
+
+/* Docutils document */
+tt.literal, pre.literal-block {
+    font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 85%;
+    line-height: 1.45;
+    background: #f5f5f5;
+}
+
+pre.literal-block {
+    height: auto;
+    overflow: auto;
+    margin-bottom: 1em;
+    padding: 0.6em 0.8em;
+}
+
+tt.literal {
+    padding: 0.125em 0.25em;
+    margin: 0;
+}
+
+a.headerlink {
+    visibility: hidden;
+}
+
+h1:hover > a.headerlink, h2:hover > a.headerlink, h3:hover > a.headerlink,
+h4:hover > a.headerlink, h5:hover > a.headerlink, h6:hover > a.headerlink {
+    visibility: visible;
+    text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr th, table tr td {
+    border: 1px solid #DDD;
+}
+
+div.line-block {
+    margin-bottom: 1.25rem;
+}
+
+/* Document */
+.post span.date {
+    color: gray;
+    font-size: 0.95em;
+}
+
+.post img {
+    margin-bottom: 2.25em;
+}
+
+.post + .post {
+    margin-top: 3.75em;
+}
+
+.pagination {
+    margin-top: 2em;
+}
+
+.post-nav {
+    padding-top: 0.5em;
+}
+
+.post-nav + footer {
+    margin-top: 2.25em;
+}
